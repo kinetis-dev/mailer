@@ -10,8 +10,8 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main",
-        "kinetis/revolt-http-client": "dev-main",
+        "kinetis/framework": "^1.19.1",
+        "kinetis/revolt-http-client": "^1.1.1",
         "symfony/mailer": "^7.2|^8.0"
     },
     "require-dev": {
@@ -35,16 +35,6 @@
             "bootstrap": "Kinetis\\Mailer\\PackageBootstrap"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework"
-        },
-        {
-            "type": "path",
-            "url": "../revolt-http-client"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
